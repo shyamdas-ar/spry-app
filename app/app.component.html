@@ -1,0 +1,8 @@
+
+<div [ngclass]="currentTheme">
+    <app-header></app-header>
+    <app-client-selector (clientChanged)="onClientChange($event)"></app-client-selector>
+    <app-employee-form></app-employee-form>
+  </div>
+  
+  
